@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mereke</title>
     <style>
-        body {
+        * {
+            box-sizing: border-box;
             margin: 10px;
+            padding: 0px;
+        }
+        body {
+            margin: 0px;
         }
         h1 {
             text-align: center;
@@ -35,20 +40,25 @@
         }
         @media (min-width: 992px) and (max-width: 1500px){
             .box {
-                width: 30%;
+                width: 31%;
                 float: left;
             }
         }
         @media (min-width: 768px) and (max-width: 991px) {
             .box {
-                width: 45%;
+                width: 47%;
                 float: left;
+                margin: 5px;
+            }
+            #second_p {
+                float: right;
             }
 
 
             #third_p {
                 float: left;
-                width: 95%;
+                width: 100%;
+                margin-top: 20px;
             }
 
         }
